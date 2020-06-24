@@ -13,12 +13,11 @@ Input: "abcd"
 Output: ""
 
 Note:
-    2 <= S.length <= 10^5
-    S consists of lowercase English letters.
+2 <= S.length <= 10^5
+S consists of lowercase English letters.
 """
 
 # naive solution, fails on test #3
-
 class Solution(object):
     def longestDupSubstring(self, S):
         """

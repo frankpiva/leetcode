@@ -18,8 +18,8 @@ For example, given the dungeon below, the initial health of the knight must be a
 +--------+-----+--------+
 
 Note:
-    The knight's health has no upper bound.
-    Any room can contain threats or power-ups, even the first room the knight enters and the bottom-right room where the princess is imprisoned.
+The knight's health has no upper bound.
+Any room can contain threats or power-ups, even the first room the knight enters and the bottom-right room where the princess is imprisoned.
 """
 
 # naive greedy attempt, fails on test #33
