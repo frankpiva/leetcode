@@ -113,7 +113,7 @@ class Solution:
             self.levels[nextLevel].append(None)
 
 
-# approach: big brain recurse and update
+# approach: big brain recurse, calculate, and update
 # memory: O(n), where n = number of levels in the binary tree
 # runtime: O(2^n - 1)
 class Solution:
