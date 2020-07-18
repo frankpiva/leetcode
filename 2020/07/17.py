@@ -26,7 +26,7 @@ Note:
 # runtime: O(3n)  
 class Solution:
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
-        dictionary = {}, heap = []
+        dictionary, heap = {}, []
         
         for num in nums:
             if num not in dictionary:
