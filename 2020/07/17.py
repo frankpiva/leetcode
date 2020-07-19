@@ -23,7 +23,7 @@ Note:
 
 # approach: populate dictionary, populate heap, retrieve from heap
 # memory: O(2n)
-# runtime: O(3n)  
+# runtime: O(n log n)  
 class Solution:
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
         dictionary, heap = {}, []
