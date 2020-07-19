@@ -125,7 +125,7 @@ class Solution:
             return canTake
 
 
-# approach: adjacen matrix, in-degree list, and queue
+# approach: adjacency matrix, in-degree list, and queue
 # memory: O(V+E)
 # runtime: O(V+E)
 class Solution:
