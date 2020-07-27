@@ -33,3 +33,16 @@ class Solution:
             return 9
         else:
             return remainder 
+
+# approach: check for 0, examine modulus
+# memory: O(1)
+# runtime: O(log(n) + 1)
+class Solution:
+    def addDigits(self, num: int) -> int:
+        if num == 0:
+            return 0
+        remainder = num % 9
+        if remainder == 0:
+            return 9
+        else:
+            return remainder 
