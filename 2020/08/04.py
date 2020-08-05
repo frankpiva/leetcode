@@ -39,3 +39,14 @@ class Solution:
 
         # passed all checks, return True
         return True
+
+# approach: combine properties of perfect squares and powers of two
+# memory: O(1)
+# runtime: O(1)
+class Solution:
+    def isPowerOfFour(self, num: int) -> bool:
+        # property of perfect squares
+        # 4^2 % (4 - 1) = 1, 9^2 % (9 - 1) = 1
+        # property of powers of two
+        # num = 16,15 = 10000 & 01111 = 0
+        return (num % 3 == 1) and not num & (num - 1)
