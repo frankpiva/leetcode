@@ -43,8 +43,8 @@ Constraints:
 """
 
 # approach: dynamic programming
-# memory: 
-# runtime: 
+# memory: O(n) ?
+# runtime: O(n) ?
 import re
 
 class Solution:
