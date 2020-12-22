@@ -1,4 +1,6 @@
 """
+Decoded String at Index
+
 An encoded string S is given.  To find and write the decoded string to a tape, the encoded string is read one character at a time and the following steps are taken:
 
     If the character read is a letter, that letter is written onto the tape.
