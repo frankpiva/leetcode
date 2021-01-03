@@ -56,8 +56,8 @@ Constraints:
 #         self.right = None
 
 # approach: depth-first search
-# memory: O(d), where d is the depth of the tree
-# runtime: O(n), where n is the number of nodes
+# memory: O(D), where D is the depth of the tree
+# runtime: O(V)
 class Solution:
     def getTargetCopy(self, original: TreeNode, cloned: TreeNode, target: TreeNode) -> TreeNode:
         if cloned:
